@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000000;
+    background-image: url('./assets/mainbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    height: 100vh;
+
+}
+
+#scroll {
+    overflow-y: scroll;
+}
+
+#scroll::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+}
+
+/* Track */
+#scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#scroll::-webkit-scrollbar-thumb {
+    background: seashell;
+    background-image: url(./assets/html-coding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #000000;
+        background-image: url('./assets/mainbg.png');
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: 50% 50%;
+        background-position-x: 19px;
+        height: 100vh;
+        overflow-y: hidden;
+
+    }
+}
