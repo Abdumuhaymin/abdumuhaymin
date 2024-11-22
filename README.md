@@ -14,7 +14,6 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in React
 
 ## 🚀 My Tech Stack:
 - **Languages & Frameworks**: JavaScript, React, Node.js
-- **Databases**: PostgreSQL, MongoDB
 - **Dev Tools**: Git, Linux (Kali, Custom distros), Docker
 - **Other Tools**: Axios, Ant Design, Nginx, React-Toastify
 
